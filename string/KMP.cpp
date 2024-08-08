@@ -9,3 +9,15 @@ vector<int> prefix_func(const string& s){
 	}
 	return pi;
 }
+vector<int> kmp(string str, string s, vector<int>& nxt) {
+    vector<int> ans;
+    for (int i = 0, j = 0; i < SZ(str); i++) {
+        while (j && str[i] != s[j]) j = nxt[j - 1];
+        if (str[i] == s[j]) j++;
+        if (j == SZ(s)) {
+            ans.push_back(i - SZ(s) + 1);
+            j = nxt[j - 1];
+        }
+    }
+    return ans;
+}
