@@ -1,4 +1,4 @@
-vector<int> prefix_func(const string& s){
+vector<int> prefunc(const string& s){
 	int n = s.size();
 	vector<int> pi(n);
 	for(int i=1,j=0;i<n;++i){
