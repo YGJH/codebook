@@ -41,6 +41,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
 \setmainfont [				%主要字型
     Path = .fonts/ttf/,
     UprightFont = *-Regular,
@@ -103,6 +104,11 @@ stringstyle=\itshape\color{Green4},
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\contentsname}{Contents} 
 
+\newcommand{\includetex}[2]{
+  \subsection{#1}
+  \input{#2}
+  \vspace{-1.2em}
+}
 \scriptsize
 \tableofcontents
 
@@ -141,7 +147,7 @@ stringstyle=\itshape\color{Green4},
     \subsection{digit}
     \lstinputlisting{dp/digit.cpp}
 
-    \subsection{pmedian}
+    \subsection{p\_median}
     \lstinputlisting{dp/p_median.cpp}
 
     \subsection{sosdp}
@@ -220,9 +226,10 @@ stringstyle=\itshape\color{Green4},
     \subsection{josephus}
     \lstinputlisting{math/josephus.cpp}
 
-    \subsection{maththeorem.tex}
-    \lstinputlisting{math/math_theorem.tex}
-
+    \includetex{Theorem}{math/theorem.tex}
+    \vspace{1.2em}
+    \includetex{Primes}{math/Primes.tex}
+    \vspace{1.2em}
     \subsection{millerrabin}
     \lstinputlisting{math/miller_rabin.cpp}
 
@@ -284,6 +291,42 @@ stringstyle=\itshape\color{Green4},
 
 
 % 方格紙
+\begin{tikzpicture}[every node/.style={minimum size=1cm-\pgflinewidth, outer sep=10pt}, scale=2]
+    \draw[step=0.2cm,color=gray] (0,0) grid (4,13);
+    \draw[step=1cm,color=black,line width=0.4mm] (0,0) grid (4,13);
+\end{tikzpicture}
+\begin{tikzpicture}[every node/.style={minimum size=1cm-\pgflinewidth, outer sep=10pt}, scale=2]
+    \draw[step=0.2cm,color=gray] (0,0) grid (4,13);
+    \draw[step=1cm,color=black,line width=0.4mm] (0,0) grid (4,13);
+\end{tikzpicture}
+\begin{tikzpicture}[every node/.style={minimum size=1cm-\pgflinewidth, outer sep=10pt}, scale=2]
+    \draw[step=0.2cm,color=gray] (0,0) grid (4,13);
+    \draw[step=1cm,color=black,line width=0.4mm] (0,0) grid (4,13);
+\end{tikzpicture}
+\begin{tikzpicture}[every node/.style={minimum size=1cm-\pgflinewidth, outer sep=10pt}, scale=2]
+    \draw[step=0.2cm,color=gray] (0,0) grid (4,13);
+    \draw[step=1cm,color=black,line width=0.4mm] (0,0) grid (4,13);
+\end{tikzpicture}
+\begin{tikzpicture}[every node/.style={minimum size=1cm-\pgflinewidth, outer sep=10pt}, scale=2]
+    \draw[step=0.2cm,color=gray] (0,0) grid (4,13);
+    \draw[step=1cm,color=black,line width=0.4mm] (0,0) grid (4,13);
+\end{tikzpicture}
+\begin{tikzpicture}[every node/.style={minimum size=1cm-\pgflinewidth, outer sep=10pt}, scale=2]
+    \draw[step=0.2cm,color=gray] (0,0) grid (4,13);
+    \draw[step=1cm,color=black,line width=0.4mm] (0,0) grid (4,13);
+\end{tikzpicture}
+\begin{tikzpicture}[every node/.style={minimum size=1cm-\pgflinewidth, outer sep=10pt}, scale=2]
+    \draw[step=0.2cm,color=gray] (0,0) grid (4,13);
+    \draw[step=1cm,color=black,line width=0.4mm] (0,0) grid (4,13);
+\end{tikzpicture}
+\begin{tikzpicture}[every node/.style={minimum size=1cm-\pgflinewidth, outer sep=10pt}, scale=2]
+    \draw[step=0.2cm,color=gray] (0,0) grid (4,13);
+    \draw[step=1cm,color=black,line width=0.4mm] (0,0) grid (4,13);
+\end{tikzpicture}
+\begin{tikzpicture}[every node/.style={minimum size=1cm-\pgflinewidth, outer sep=10pt}, scale=2]
+    \draw[step=0.2cm,color=gray] (0,0) grid (4,13);
+    \draw[step=1cm,color=black,line width=0.4mm] (0,0) grid (4,13);
+\end{tikzpicture}
 \begin{tikzpicture}[every node/.style={minimum size=1cm-\pgflinewidth, outer sep=10pt}, scale=2]
     \draw[step=0.2cm,color=gray] (0,0) grid (4,13);
     \draw[step=1cm,color=black,line width=0.4mm] (0,0) grid (4,13);
