@@ -1,4 +1,4 @@
-vector<int> zfunc(string &s){
+vector<int> zfunc(string &s){ //求 s 跟 s[i..n-1] 的最長真共同前綴長度 z[0] = 0
 	int n = s.size();
 	vector<int> z(n);
 	for(int i = 1,l = 0,r = 0; i < n;++i){

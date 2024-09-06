@@ -4,7 +4,7 @@ g++ wa.cpp -o wa.exe
 set /a num=1
 :loop
    echo %num%
-   C:/msys64/ucrt64/bin/python.exe gen.py > input
+   python gen.py > input
    ac.exe < input > ac
    wa.exe < input > wa
    fc ac wa 

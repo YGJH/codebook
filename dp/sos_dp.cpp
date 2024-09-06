@@ -2,6 +2,6 @@
 for(int i = 0; i<(1<<N); ++i)	F[i] = A[i]; //預處理 狀態權重
 
 for(int i = 0;i < N; ++i)
-for (int mask = (1<<N)-1; mask >= 0 ; mask--)
-	if (mask & (1 << i))
-		F[mask] += F[mask ^ (1 << i)];
+for (int s = 0; s < (1<<N) ; ++s)
+	if (s & (1 << i))
+		F[s] += F[s ^ (1 << i)];
