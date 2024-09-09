@@ -12,7 +12,7 @@ struct fenwick{
 		for(; x ; x -= lowbit(x)) ret += v[x];
 		return ret;
 	}
-	int qry(int l,int r) { return query(r) - query(l-1); }
+	int qry(int l,int r) { return qry(r) - qry(l-1); }
 	int kth(int k){ // lower_bound(k)
 		int x = 0; --k;
 		for(int i = (1<<__lg(n)); i;i >>= 1){

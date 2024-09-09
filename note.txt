@@ -1,0 +1,33 @@
+dp
+    樹背包
+python 
+    fraction rounding 
+黑魔法
+    pbds
+ds
+    持久化資結
+    Sparse Table
+    Treap
+graph
+    差分約束 2SAT 放結論
+    歐拉路徑/迴路 哈密頓路徑
+    曼哈頓最小生成樹
+    k短路
+    MinimumSteinerTree
+math 
+    O(1) mod (__int128)
+    Discrete Logrithum
+    Catalan Number
+    CRT
+string 
+    AC 自動機
+tree 
+    樹剖
+    virtual tree
+other 
+    // cdq
+    Fraction Binary Search 
+    Area of Reactangles
+    // De Bruijn Sequence 
+    // 回朔求字典序最小
+    Syntax (語法(改STLcomparator等))
