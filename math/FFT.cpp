@@ -1,4 +1,4 @@
-// const int MAXN = 262144;
+const int MAXN = 262144;
 // (must be 2^k)
 // before any usage, run pre_fft() first
 typedef long double ld;
@@ -35,7 +35,7 @@ void fft(int n, cplx a[], bool inv=false){
   if(inv) for (i = 0; i < n; i++) a[i] /= n;
 }
 cplx arr[MAXN+1];
-inline void mul(int _n,ll a[],int _m,ll b[],ll ans[]){
+inline void mul(int _n,i64 a[],int _m,i64 b[],i64 ans[]){
   int n=1,sum=_n+_m-1;
   while(n<sum)
     n<<=1;
