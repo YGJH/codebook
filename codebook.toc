@@ -4,8 +4,8 @@
 \contentsline {subsection}{\numberline {1.3}random}{1}{}%
 \contentsline {subsection}{\numberline {1.4}run.bat}{1}{}%
 \contentsline {subsection}{\numberline {1.5}run.sh}{1}{}%
-\contentsline {section}{\numberline {2}binarysearch}{1}{}%
-\contentsline {subsection}{\numberline {2.1}二分搜}{1}{}%
+\contentsline {section}{\numberline {2}binarysearch}{2}{}%
+\contentsline {subsection}{\numberline {2.1}二分搜}{2}{}%
 \contentsline {section}{\numberline {3}dataStructure}{2}{}%
 \contentsline {subsection}{\numberline {3.1}DSU}{2}{}%
 \contentsline {subsection}{\numberline {3.2}fenwickTree}{2}{}%
@@ -29,15 +29,15 @@
 \contentsline {subsection}{\numberline {6.6}MECrandom}{6}{}%
 \contentsline {subsection}{\numberline {6.7}Rotating Clipers}{6}{}%
 \contentsline {subsection}{\numberline {6.8}sortbyangle}{6}{}%
-\contentsline {section}{\numberline {7}graph}{6}{}%
-\contentsline {subsection}{\numberline {7.1}BCC}{6}{}%
+\contentsline {section}{\numberline {7}graph}{7}{}%
+\contentsline {subsection}{\numberline {7.1}BCC}{7}{}%
 \contentsline {subsection}{\numberline {7.2}SCC}{7}{}%
 \contentsline {subsection}{\numberline {7.3}支配樹}{7}{}%
-\contentsline {subsection}{\numberline {7.4}最大團}{7}{}%
+\contentsline {subsection}{\numberline {7.4}最大團}{8}{}%
 \contentsline {subsection}{\numberline {7.5}最小圈}{8}{}%
 \contentsline {section}{\numberline {8}math}{8}{}%
 \contentsline {subsection}{\numberline {8.1}DiscreteSqrt}{8}{}%
-\contentsline {subsection}{\numberline {8.2}excrt}{8}{}%
+\contentsline {subsection}{\numberline {8.2}excrt}{9}{}%
 \contentsline {subsection}{\numberline {8.3}exgcd}{9}{}%
 \contentsline {subsection}{\numberline {8.4}FFT}{9}{}%
 \contentsline {subsection}{\numberline {8.5}josephus}{9}{}%
@@ -49,7 +49,7 @@
 \contentsline {subsection}{\numberline {8.11}primes}{10}{}%
 \contentsline {subsection}{\numberline {8.12}Euler}{10}{}%
 \contentsline {subsection}{\numberline {8.13}quickeuler}{10}{}%
-\contentsline {subsection}{\numberline {8.14}sieve}{10}{}%
+\contentsline {subsection}{\numberline {8.14}sieve}{11}{}%
 \contentsline {section}{\numberline {9}string}{11}{}%
 \contentsline {subsection}{\numberline {9.1}KMP}{11}{}%
 \contentsline {subsection}{\numberline {9.2}minRotation}{11}{}%
@@ -62,5 +62,10 @@
 \contentsline {section}{\numberline {10}tree}{12}{}%
 \contentsline {subsection}{\numberline {10.1}DSUONTREE}{12}{}%
 \contentsline {subsection}{\numberline {10.2}EularTour}{12}{}%
-\contentsline {subsection}{\numberline {10.3}LCA}{12}{}%
+\contentsline {subsection}{\numberline {10.3}LCA}{13}{}%
 \contentsline {subsection}{\numberline {10.4}treehash}{13}{}%
+\contentsline {subsection}{\numberline {10.5}treap}{13}{}%
+\contentsline {section}{\numberline {11}pbds}{14}{}%
+\contentsline {subsection}{\numberline {11.1}rbTree}{14}{}%
+\contentsline {subsection}{\numberline {11.2}hashTable}{14}{}%
+\contentsline {subsection}{\numberline {11.3}rope}{14}{}%
